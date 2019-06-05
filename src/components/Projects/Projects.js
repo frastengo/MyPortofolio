@@ -8,6 +8,19 @@ import meme2 from './meme2.png'
 import meme3 from './meme3.png'
 import meme4 from './meme4.png'
 
+import register from './furbookimages/register.png' 
+import welcomeRegister from './furbookimages/welcomeafteregister.png' 
+import login from './furbookimages/login.png' 
+import main from './furbookimages/main.png' 
+import add from './furbookimages/addprofile.png' 
+import find from './furbookimages/findfriends.png' 
+import profile from './furbookimages/myprofiles.png' 
+import select from './furbookimages/select1.png' 
+import frienddisplay from './furbookimages/frienddisplay.png' 
+import update from './furbookimages/update.png' 
+import userinfo from './furbookimages/userinfo.png' 
+import welcomeLogin from './furbookimages/welcome.png' 
+
 function Projects () {
     return (
         <div className='projects-container'>
@@ -34,13 +47,52 @@ function Projects () {
                         
                         <div className='images-container'>
                             <div className='image-container'>
-                                <img src={fur1}/>
+                                <img src={main}/>
+                                <h3>Main</h3>
                             </div>
                             <div className='image-container'>
-                                <img src={fur2}/>
+                                <img src={register}/>
+                                <h3>Registration</h3>
                             </div>
                             <div className='image-container'>
-                                <img src={fur3}/>
+                                <img src={welcomeRegister}/>
+                                <h3>After Registration</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={login}/>
+                                <h3>Login</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={welcomeLogin}/>
+                                <h3>After Login</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={add}/>
+                                <h3>Add Profile</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={select}/>
+                                <h3>React Select</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={profile}/>
+                                <h3>My Profile(s)</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={userinfo}/>
+                                <h3>User Information</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={update}/>
+                                <h3>Update Profile</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={find}/>
+                                <h3>Find Friends</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={frienddisplay}/>
+                                <h3>Profile Display</h3>
                             </div>
 
                         </div>
