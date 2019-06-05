@@ -1,0 +1,18 @@
+$light-pink: #FCE8E8;
+$grey-title: #454444;
+
+
+.main-container{
+    background: $light-pink;
+    background: linear-gradient($light-pink, white);
+    height: 300px;
+    padding: 50px 0px;
+    
+    
+    // margin-top: 100px;
+
+    h1{
+        color: $grey-title;
+        // color: white;
+    }
+}

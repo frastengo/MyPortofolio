@@ -1,0 +1,89 @@
+$light-gray: #E5E5E5;
+$dark-gray: #B2B1B1;
+$grey-title: #454444;
+$light-pink: #FCE8E8;
+
+
+.App {
+  font-family: "Sinhala MN";
+  text-align: center;
+  @media (min-width: 500px){
+    width: 100vw;
+    height: 100vh;
+  }
+  // max-width: 320px;
+  // width: 100vw;
+  // height: 100vh;
+}
+
+
+main, header {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  @media (min-width: 500px){
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.about, .projects, .education, .experience {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  @media (min-width: 500px){
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.header-container{
+  width: 100%;
+}
+.about-container, .projects-container, .contact-container, .education-container, .experience-container{
+  background: $light-pink;
+  margin-top: 65px;
+  @media (min-width: 500px){
+    width: 100%;
+    margin-top: 245px;
+    
+  }
+}
+.title{
+  background: $light-pink;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  @media (min-width: 500px){
+    width: 100%;
+    margin-top: 0px;
+
+    h1{
+      font-size: 30px;
+      margin: 20px 0px;
+      text-shadow: 3px 1px 1px white;
+      background: linear-gradient(0.25turn, $light-pink,white, white, white, white, $light-pink);
+        // color: white;
+    }
+    
+  }
+
+  
+    
+  
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+}
+
+
+
+
