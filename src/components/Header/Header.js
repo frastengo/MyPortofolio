@@ -54,11 +54,11 @@ class Header extends Component {
                     
                     </div>
                     <div className={showNav ? 'mobile-nav' : 'no-mobile-nav'}>
-                        <Link path to='/about' className={pathname === aboutPath ? 'linkHovered' : 'link'}><span>ABOUT</span></Link>
-                        <Link path to='/education' className={pathname === educationPath ? 'linkHovered' : 'link'}><span>EDUCATION</span></Link>
-                        <Link path to='/projects' className={pathname === projectsPath ? 'linkHovered' : 'link'}><span>PROJECTS</span></Link>
-                        <Link path to='/experience' className={pathname === experiencePath ? 'linkHovered' : 'link'}><span>EXPERIENCE</span></Link>
-                        <Link path to='/contact' className={pathname === contactPath ? 'linkHovered' : 'link'}><span>CONTACT</span></Link> 
+                        <Link path to='/about' className={pathname === aboutPath ? 'linkHovered' : 'link'} onClick={() => this.setState({showNav: !showNav})}><span>ABOUT</span></Link>
+                        <Link path to='/education' className={pathname === educationPath ? 'linkHovered' : 'link'} onClick={() => this.setState({showNav: !showNav})}><span>EDUCATION</span></Link>
+                        <Link path to='/projects' className={pathname === projectsPath ? 'linkHovered' : 'link'} onClick={() => this.setState({showNav: !showNav})}><span>PROJECTS</span></Link>
+                        <Link path to='/experience' className={pathname === experiencePath ? 'linkHovered' : 'link'} onClick={() => this.setState({showNav: !showNav})}><span>EXPERIENCE</span></Link>
+                        <Link path to='/contact' className={pathname === contactPath ? 'linkHovered' : 'link'} onClick={() => this.setState({showNav: !showNav})}><span>CONTACT</span></Link> 
                     </div>
 
             </div>

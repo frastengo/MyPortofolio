@@ -150,20 +150,27 @@ header {
         }  
         h1 {
             font-size: 20px;
-            background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
+            // background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
+            background: linear-gradient(0.25turn, $dark-gray, white, white, $dark-gray);
+            // background: white;
+            
+            
             margin-bottom: 5px;
             padding: 5px 10px;
-            // margin: 5px 5px;
-            
-            
-            
-            color: $grey-title;
+            // color: $grey-title;
+            color: black;
             @media (min-width: 500px){
+                width: 100%;
                 font-size: 40px;
                 margin-bottom: 25px;
                 letter-spacing: 4px;
-                padding: 20px 200px;
+                padding: 20px 250px;
                 text-shadow: 3px 1px 1px white;
+                &:hover{
+                    background: white;
+                    color: black;
+
+                }
                 // font-weight: bold;
                 
             }
@@ -204,7 +211,7 @@ header {
             text-decoration: none;
             color: rgb(231, 231, 231);
             span{
-                background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
+                background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
                 // background: $light-pink;
                 color: black;
                 font-size: 20px;
@@ -219,12 +226,12 @@ header {
             // font-size: 20px;
 
             &:hover{
-                background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
+                background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
                 color: black;
                 font-size: 20px;
             }
             &:active{
-                background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
+                background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
                 color: black;
             }
             
