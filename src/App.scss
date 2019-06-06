@@ -17,7 +17,7 @@ $light-pink: #FCE8E8;
 }
 
 
-main, header, .about, .projects, .education, .experience {
+main, header, footer, .about, .projects, .education, .experience {
   width: 100%;
   max-width: 320px;
   margin: 0 auto;
@@ -25,17 +25,21 @@ main, header, .about, .projects, .education, .experience {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
   }
 }
 
-.about, .projects, .education, .experience {
+.about, .projects, .education, .contact, .experience {
   width: 100%;
   max-width: 320px;
+  height: 677px;
+  overflow: scroll;
   margin: 0 auto;
   @media (min-width: 500px){
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: 1200px;
   }
 }
 
