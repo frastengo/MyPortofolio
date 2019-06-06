@@ -6,14 +6,17 @@ $light-pink: #FCE8E8;
 
 
 .main-container{
-    background: #B2B1B1;
+    // background: #B2B1B1;
+    background: lightgrey;
     .name-title-container{
-        margin-top: 200px;
+        margin-top: 100px;
+        
         display: flex;
         flex-direction: column;
         text-align: center;
         padding: 10px 0px;
         @media (min-width: 500px){
+            margin-top: 200px;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -21,11 +24,12 @@ $light-pink: #FCE8E8;
             padding: 40px 0px;
         }  
         h1 {
-            font-size: 20px;
+            margin-top: 100px;
+            font-size: 30px;
             // background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
             // background: linear-gradient(0.25turn, $dark-gray, white, white, $dark-gray);
             // background: white;
-            background: linear-gradient(0.25turn, $dark-gray, white, white, $dark-gray);
+            background: linear-gradient(0.25turn, lightgrey, white, white, lightgrey);
             margin-top: 100px;
             
             
@@ -70,7 +74,7 @@ $light-pink: #FCE8E8;
     
     color: white;
     main{
-        background: #B2B1B1;
+        background: lightgrey;
         display: flex;
         align-items: center;
         justify-content: FLEX-START;
