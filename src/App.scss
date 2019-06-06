@@ -47,7 +47,7 @@ main, header, footer, .about, .projects, .education, .experience {
   width: 100%;
 }
 .about-container, .projects-container, .contact-container, .education-container, .experience-container{
-  background: $light-pink;
+  background:lightgrey;
   margin-top: 65px;
   @media (min-width: 500px){
     width: 100%;
@@ -56,14 +56,15 @@ main, header, footer, .about, .projects, .education, .experience {
   }
 }
 .title{
-  background: $light-pink;
+  // background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
+  // background: white;
   height: 60px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 20px;
   @media (min-width: 500px){
     width: 100%;
@@ -73,7 +74,7 @@ main, header, footer, .about, .projects, .education, .experience {
       font-size: 30px;
       // margin: 20px 0px;
       text-shadow: 3px 1px 1px white;
-      background: linear-gradient(0.25turn, $light-pink,white, white, white, white, $light-pink);
+      // background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
         // color: white;
     }
     
