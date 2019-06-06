@@ -14,10 +14,14 @@ class Header extends Component {
 
 
     }
+    home = () => {
+        this.props.history.push('/')
+    }
     
     render () {
         const {showNav} = this.state
         const {pathname} = this.props.location
+        var mainPath = '/'
         var aboutPath = '/about'
         var projectsPath = '/projects'
         var educationPath = '/education'
@@ -26,8 +30,13 @@ class Header extends Component {
         console.log(pathname)
         return (
             <div className='header-container'>
+                {/* {pathname === mainPath ? (
+                    null
+                ):( */}
+
+                
                 <header>
-                    <div className='name-title-container'>
+                    <div onClick={this.home} className='name-title-container'>
                         <h1>FRANCISCA ASTENGO RAVILET</h1>
                         <h2>{front + "FULL STACK WEB DEVELOPER" + back}</h2>
                     </div>
@@ -37,10 +46,9 @@ class Header extends Component {
                         <Link path to='/projects' className={pathname === projectsPath ? 'linkHovered' : 'link'}><span>PROJECTS</span></Link>
                         <Link path to='/experience' className={pathname === experiencePath ? 'linkHovered' : 'link'}><span>EXPERIENCE</span></Link>
                         <Link path to='/contact' className={pathname === contactPath ? 'linkHovered' : 'link'}><span>CONTACT</span></Link>  
-                    </nav>
-
-                    
+                    </nav>   
                 </header>
+                {/* )} */}
                     <div onClick={()=> this.setState({showNav: !showNav})}className='button-for-mobile'>
                     {!showNav ? (
                         <i class="material-icons">
