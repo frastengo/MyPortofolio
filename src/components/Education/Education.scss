@@ -5,18 +5,49 @@ $light-pink: #FCE8E8;
 
 .education{
     
+    .position{
+        // border: 2px solid grey;
+        background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        h1{
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 20px;
+            text-align: center;
+            width: 360px;
+            
+        }
+        p{
+            color: grey;
+            font-size: 15px;
+        }
+        
+    }
+    
+    
     p{ 
-        // font-size: 20px;
+        font-size: 20px;
         // background: linear-gradient(0.25turn, $light-pink,white, white, white, white, $light-pink);
         // width: 100%;
-        // line-height: 30px;
-        // text-align: center;
-        // // padding: 15px 150px;
-        // // margin-bottom: 30px;
-        // span{                          
-        //     font-weight: bold;
-        //     font-size: 20px;
-        // }
+        line-height: 50px;
+        text-align: center;
+        // padding: 15px 150px;
+        // margin-bottom: 30px;
+        span{
+            font-weight: bold;
+            font-size: 30px;
+        }
     }
 
     @media (min-width: 500px){
