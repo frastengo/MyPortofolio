@@ -1,0 +1,84 @@
+.contact{
+    @media (min-width: 500px){
+        .link{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            height: 300px;
+            
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+            }
+        }
+        .email {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // width: %;
+            i{
+                font-size: 35px;
+                padding-right: 5px;
+            }
+        }
+        .links{
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
+            .img-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+                // width: 200px;
+                // height: auto;
+                img{
+                    width: 150px;
+                    height: auto;
+                }
+            }
+        }
+        .find-me-online{
+        // border: 2px solid grey;
+        // border-radius: 10%;
+        // background: white;
+        background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 150px;
+        text-align: center;
+        // margin-bottom: 200px;
+        h1{
+            font-size: 25px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 0px;
+            color: black;
+        }
+        h2{
+            font-size: 20px;
+            text-align: center;
+            width:100%;
+            color: grey;
+            
+        }
+        p{
+            // color: black;
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+        
+    
+    
+    }
+}
