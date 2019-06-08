@@ -25,9 +25,12 @@ function Projects () {
     return (
         <div className='projects-container'>
             <div className='projects'>
-                <div className='title'>
+                {/* <div className='title'>
                     <h1>console.log(FRANCISCA.projects)</h1>
-                </div>
+                    <i class="material-icons">
+                    web
+                    </i>
+                </div> */}
                 {/* <nav>
                     <span>FurBook</span>
                     <span>Meme Master</span>

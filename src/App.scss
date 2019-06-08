@@ -26,6 +26,7 @@ main, header, footer, .about, .projects, .education, .experience {
     max-width: 1200px;
     margin: 0 auto;
     
+    
   }
 }
 
@@ -35,11 +36,13 @@ main, header, footer, .about, .projects, .education, .experience {
   height: 677px;
   overflow: scroll;
   margin: 0 auto;
+  padding-top: 50px;
   @media (min-width: 500px){
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     height: 1200px;
+    padding-top: 50px;
   }
 }
 
@@ -62,7 +65,7 @@ main, header, footer, .about, .projects, .education, .experience {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: CENTER;
   align-items: flex-end;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -74,6 +77,7 @@ main, header, footer, .about, .projects, .education, .experience {
       font-size: 25px;
       // margin: 20px 0px;
       text-shadow: 3px 1px 1px white;
+      padding-right: 10px;
       // background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
         // color: white;
     }

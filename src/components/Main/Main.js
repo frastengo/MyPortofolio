@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './Main.scss'
 import { withRouter, Link } from 'react-router-dom'
+// import imageMe from './image.png'
 var front = '<'
 var back = '/>'
 
@@ -23,6 +24,7 @@ class Main extends Component {
                     <div className='name-title-container'>
                         <h1>Hello & Welcome!</h1>
                         <h2>Get to know me.</h2>
+                        {/* <img src={imageMe}/> */}
                     </div>
                         {/* <h1>I'm Francisca Astengo</h1>
                         
