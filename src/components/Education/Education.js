@@ -5,9 +5,9 @@ function Education () {
     return (
         <div className='education-container'>
             <div className='education'>
-                <div className='title'>
+                {/* <div className='title'>
                     <h1>console.log(FRANCISCA.education)</h1>
-                </div>
+                </div> */}
                 <div className='position'>
                     <h1>DevMountain</h1>
                     <h2>Coding Bootcamp</h2>

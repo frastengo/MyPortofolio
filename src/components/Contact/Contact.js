@@ -10,11 +10,26 @@ function Contact () {
     return (
         <div className='contact-container'>
             <div className='contact'>
-                <div className='title'>
+                {/* <div className='title'>
                     <h1>console.log(FRANCISCA.contact)</h1>
-                </div>
+                </div> */}
+                
                 <div className='find-me-online'>
-                    <h1>Find Me Online</h1>
+                <div className='email'>
+                    <i class="material-icons">
+                   email
+                    </i>
+                    <h1>frastengoravilet@gmail.com</h1>
+
+                </div>
+                <div className='email'>
+                    <i class="material-icons">
+                    person_pin_circle
+                    </i>
+                    <h1>North Phoenix, Arizona</h1>
+
+                </div>
+                    {/* <h1>Find Me Online</h1> */}
                 <div className='links'>
                     <div className='link'>
                         <h1>Github</h1>
@@ -33,13 +48,7 @@ function Contact () {
 
                     </div>
                 </div>
-                <div className='email'>
-                    <i class="material-icons">
-                   email
-                    </i>
-                    <h1>frastengoravilet@gmail.com</h1>
-
-                </div>
+                
                 </div>
                 {/* <div>
                     <h1>Message Me</h1>

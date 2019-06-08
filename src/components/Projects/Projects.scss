@@ -38,6 +38,9 @@ $light-pink: #FCE8E8;
         // border-radius: 10%;
         // background: white;
         background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
+        &:hover{
+            background: white;
+        }
         display: flex;
         flex-direction: column;
         width: 100%;

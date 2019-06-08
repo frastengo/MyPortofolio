@@ -4,6 +4,31 @@ $grey-title: #454444;
 $light-pink: #FCE8E8;
 
 .about{
+
+    .p-image{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+        @media (min-width: 500px){
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        img {
+            width: auto;
+            height: 300px;
+            border: 4px solid white;
+            margin-bottom: 25px;
+            margin-top: 25px;
+            // border-radius: 20%;
+            // margin: 20px 0px;
+        }
+    }
     .title {
         margin-top: 20px;
     }
@@ -30,6 +55,7 @@ $light-pink: #FCE8E8;
             margin-bottom: 20px;
             
         }
+        
         p{ 
             font-size: 25px;
             // background: linear-gradient(0.25turn, $light-pink,white, white, white, white, $light-pink);
@@ -37,7 +63,7 @@ $light-pink: #FCE8E8;
             width: 100%;
             line-height: 50px;
             text-align: center;
-            padding: 15px 100px;
+            padding: 60px 20px;
             margin-bottom: 30px;
             span{
                 font-weight: bold;

@@ -7,6 +7,9 @@ $light-pink: #FCE8E8;
     
     .position{
         background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
+        &:hover{
+            background: white;
+        }
         // background: white;
         display: flex;
         flex-direction: column;

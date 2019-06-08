@@ -5,9 +5,9 @@ function Experience () {
     return (
         <div className='experience-container'>
             <div className='experience'>
-                <div className='title'>
+                {/* <div className='title'>
                     <h1>console.log(FRANCISCA.experience)</h1>
-                </div>
+                </div> */}
                 <div className='position'>
                     <h1>Health Screener</h1>
                     <h2>Interactive Health</h2>
