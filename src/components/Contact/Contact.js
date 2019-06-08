@@ -35,7 +35,7 @@ function Contact () {
                         <h1>Github</h1>
                         <h2>Username: frastengo</h2>
                         <div className='img-container'><img src={github}/></div>
-                        <a href='www.linkedin.com/in/francisca-astengo'><h2>Visit</h2></a>
+                        <a  target="_blank" href="https://github.com/frastengo"><h2>Visit</h2></a>
 
                     </div>
                     <div className='link'>
@@ -44,7 +44,7 @@ function Contact () {
                         
                         <div className='img-container'><img src={linkedin}/></div>
                         
-                        <a href='www.linkedin.com/in/francisca-astengo'><h2>Visit</h2></a>
+                        <a  target="_blank" href='https:/www.linkedin.com/in/francisca-astengo'><h2>Visit</h2></a>
 
                     </div>
                 </div>
