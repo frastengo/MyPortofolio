@@ -1,19 +1,35 @@
 .contact{
     .link{
-        margin-top: 50px;
+        margin-top: 10px;
         background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
         &:hover{
             background: white;
+            color: black;
         }
-        padding: 20px 5px;
+        padding: 0px 5px;
         margin-bottom: 10px;
-        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 270px;
+        width: 100%;
         
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: space-between;
+
         a {
+            height: 25px;
+            // margin-top: 10px;
+            padding: 20px 0px;
+            // border: 2px solid grey;
+            h2{
+                &:hover{
+                   color: black;
+                   align-self: center;
+                   
+                }
+            }
             text-decoration: none;
         }
     }
@@ -21,6 +37,7 @@
         background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
         &:hover{
             background: white;
+            
         }
         padding: 20px 10px;
         width: 100%;
@@ -36,6 +53,7 @@
         }
     }
     .links{
+        border-top:2px solid grey;
         display:flex;
         align-items: center;
         flex-direction: column;
@@ -50,6 +68,7 @@
             justify-content: center;
             align-items: center;
             height: 100px;
+            margin-top: 15px;
             // width: 200px;
             // height: auto;
             img{
@@ -75,7 +94,7 @@
         font-size: 20px;
         width: 100%;
         text-align: center;
-        font-weight: bold;
+        // font-weight: bold;
         margin-bottom: 0px;
         color: black;
     }
@@ -83,7 +102,8 @@
         font-size: 15px;
         text-align: center;
         width:100%;
-        color: grey;
+        // color: rgb(219, 211, 211);
+        color: black;
         
     }
     p{
@@ -96,7 +116,7 @@
     
     @media (min-width: 500px){
         .link{
-            margin-top: 100px;
+            margin-top: 60px;
             margin-bottom: 100px;
             height: 300px;
             width: 300px;
@@ -156,9 +176,10 @@
             font-size: 25px;
             width: 100%;
             text-align: center;
-            font-weight: bold;
+            // font-weight: bold;
             margin-bottom: 0px;
             color: black;
+            
         }
         h2{
             font-size: 20px;

@@ -160,6 +160,7 @@ $light-pink: #FCE8E8;
     }
 
     @media (min-width: 500px){
+
         .project-container{
             // overflow: scroll;
             // height: 800px;
@@ -168,6 +169,7 @@ $light-pink: #FCE8E8;
             flex-direction: column;
             // border: 1px solid red;
             margin: 10px 10px;
+            
         }
         nav {
             width: 100%;
@@ -195,7 +197,7 @@ $light-pink: #FCE8E8;
             width: 100%;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 30px;
+            padding: 10px 90px;
             // text-align: left;
             margin-bottom: 20px;
             .project-title{
