@@ -44,7 +44,7 @@ function Contact () {
                         
                         <div className='img-container'><img src={linkedin}/></div>
                         
-                        <a target="_blank" href='https:/www.linkedin.com/in/francisca-astengo'><h2>Visit</h2></a>
+                        <a target="_blank" href='https://www.linkedin.com/in/francisca-astengo'><h2>Visit</h2></a>
 
                     </div>
                 </div>
