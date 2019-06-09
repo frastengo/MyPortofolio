@@ -10,16 +10,14 @@ $light-pink: #FCE8E8;
         margin-bottom: 50px;
     }
     
-
     .project-container{
-    
         width: 100%;
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column; 
     }
     
     .project{
+        // padding: 0px 100px;
         a{
             text-decoration: none;
             color: grey;
@@ -44,7 +42,7 @@ $light-pink: #FCE8E8;
        
         background: linear-gradient(0.25turn, lightgrey,white, white, white, white, lightgrey);
         &:hover{
-            background: white;
+            // background: white;
         }
         display: flex;
         flex-direction: column;

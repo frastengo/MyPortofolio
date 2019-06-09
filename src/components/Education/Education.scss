@@ -6,6 +6,17 @@ $light-pink: #FCE8E8;
 .education{
     
     .position{
+        button{
+            font-family: ' sans-serif';
+            
+            a{
+                text-decoration: none;
+                color: grey;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
         // border: 2px solid grey;
         background: linear-gradient(0.25turn, lightgrey, white, white, white, lightgrey);
         &:hover{
@@ -29,11 +40,13 @@ $light-pink: #FCE8E8;
             font-size: 20px;
             text-align: center;
             width: 360px;
+            margin-bottom: 10px;
             
         }
         p{
             color: grey;
             font-size: 15px;
+            margin-bottom: 10px;
         }
         
     }
