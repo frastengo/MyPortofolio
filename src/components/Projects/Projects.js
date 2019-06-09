@@ -1,12 +1,6 @@
 import React from 'react'
 import './Projects.scss'
-import fur1 from './fur1.png'
-import fur2 from './fur2.png'
-import fur3 from './fur3.png'
-import meme1 from './meme1.png'
-import meme2 from './meme2.png'
-import meme3 from './meme3.png'
-import meme4 from './meme4.png'
+
 
 import register from './furbookimages/register.png' 
 import welcomeRegister from './furbookimages/welcomeafteregister.png' 
@@ -20,6 +14,23 @@ import frienddisplay from './furbookimages/frienddisplay.png'
 import update from './furbookimages/update.png' 
 import userinfo from './furbookimages/userinfo.png' 
 import welcomeLogin from './furbookimages/welcome.png' 
+import mobilemain from './furbookimages/mobilemain.png' 
+import mobileuser from './furbookimages/mobileuser.png' 
+import mobilefind from './furbookimages/mobilefind.png' 
+
+import landing from './memeimages/landing.png'
+import creategame from './memeimages/creategame.png'
+import joingame from './memeimages/joingame.png'
+import lobbycreator from './memeimages/lobbycreator.png'
+import lobbyplayer from './memeimages/lobbyplayer.png'
+import chosencard from './memeimages/chosencard.png'
+import playerview from './memeimages/playerview.png'
+import judgeview from './memeimages/judgeview.png'
+import mobilelanding from './memeimages/mobilelanding.png'
+import mobilelobby from './memeimages/mobilelobby.png'
+import mobilecreate from './memeimages/mobilecreate.png'
+import winner from './memeimages/winner.png'
+import mobilejudgeview from './memeimages/mobilejudgeview.png'
 
 function Projects () {
     return (
@@ -50,6 +61,7 @@ function Projects () {
                             <h2>NODEJS</h2>
                             <h2>HTML</h2>
                             <h2>CSS</h2>
+                            <h2>RESPONSIVE</h2>
                         </div>
                         <div className='extra-skills'>
                             <h2>GITHUB</h2>
@@ -112,9 +124,21 @@ function Projects () {
                                 <img src={frienddisplay}/>
                                 <h3>Profile Display</h3>
                             </div>
+                            <div className='image-container'>
+                                <img src={mobilemain}/>
+                                <h3>Mobile - Main</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobileuser}/>
+                                <h3>Mobile - User</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobilefind}/>
+                                <h3>Mobile - Find Friends</h3>
+                            </div>
 
                         </div>
-                        <span>www.myfurbook.com</span>
+                        <a target='a_blank' href='https://www.myfurbook.com/' ><span>www.myfurbook.com</span></a>
                     </div>
                     <div className='project'>
                         <div className='project-title'>
@@ -123,26 +147,81 @@ function Projects () {
                             
                             <p>04/2019</p>
                         </div>
-                        <h2>Skills: ['React', 'Redux', 'HTML', 'CSS', 'Node.js', 'JavaScript', 'PostgreSQL', 'Socket.io', 'Cloudinary']</h2>
-                        <h2>Summary: Social game application.</h2>
-                        {/* <h2>Features: Sockets.</h2> */}
+                        <div className='main-skills'>
+                            <h2>REACT</h2>
+                            <h2>JAVASCRIPT</h2>
+                            <h2>NODEJS</h2>
+                            <h2>HTML</h2>
+                            <h2>CSS</h2>
+                            <h2>RESPONSIVE</h2>
+                        </div>
+                        <div className='extra-skills'>
+                            <h2>GITHUB</h2>
+                            <h2>POSTGRESQL</h2>
+                            <h2>HEROKU</h2>
+                            <h2>SOCKET.IO</h2>
+                            <h2>POSTMAN</h2>
+                        </div>
+                        <div className='summary'>
+                            <h2>Summary: Social game application that runs through socket.io connection.</h2>
+                        </div>
                         
                         <div className='images-container'>
                             <div className='image-container'>
-                                <img src={meme1}/>
+                                <img src={landing}/>
+                                <h3>Landing</h3>
                             </div>
                             <div className='image-container'>
-                                <img src={meme2}/>
+                                <img src={creategame}/>
+                                <h3>Create Game</h3>
                             </div>
                             <div className='image-container'>
-                                <img src={meme3}/>
+                                <img src={joingame}/>
+                                <h3>Join Game</h3>
                             </div>
                             <div className='image-container'>
-                                <img src={meme4}/>
+                                <img src={lobbycreator}/>
+                                <h3>Lobby Creator View</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={lobbyplayer}/>
+                                <h3>Lobby Playerview View</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={judgeview}/>
+                                <h3>Judgeview</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={playerview}/>
+                                <h3>Playerview</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={chosencard}/>
+                                <h3>Playerview after chosing a card</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={winner}/>
+                                <h3>Winner Page</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobilelanding}/>
+                                <h3>Mobile - Landing</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobilecreate}/>
+                                <h3>Mobile - Create Game</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobilelobby}/>
+                                <h3>Mobile - Lobby</h3>
+                            </div>
+                            <div className='image-container'>
+                                <img src={mobilejudgeview}/>
+                                <h3>Mobile - Judgeview</h3>
                             </div>
 
                         </div>
-                        <span>www.mememaster.fun</span>
+                        <a target='a_blank' href='https://www.mememaster.fun/' ><span>www.mememaster.fun</span></a>
                     </div>
                     <div className='project'>
                         <h1>Meme Master</h1>

@@ -237,6 +237,23 @@ $light-pink: #FCE8E8;
             }
         }
         .project{
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            span{
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+                padding: 10px 300px;
+                // background: linear-gradient(0.25turn, white, lightgrey, white);
+                background: lightgrey;
+                color: black;
+                &:hover{
+                    background: darkgrey;
+                    color: white;
+                }
+
+            }
             // border: 2px solid grey;
             // height: 700px;
             width: 100%;
@@ -250,8 +267,9 @@ $light-pink: #FCE8E8;
             justify-content: space-between;
             align-items: center;
             padding: 10px 90px;
+            padding-bottom: 50px;
             // text-align: left;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
             
             
             
@@ -298,6 +316,9 @@ $light-pink: #FCE8E8;
             justify-content: flex-start;
             align-items: center;
             margin-left: 10px;
+            margin-bottom: 25px;
+            
+            
             // margin-top: 30px;
         
         }
@@ -311,7 +332,8 @@ $light-pink: #FCE8E8;
             
             margin: 10px 10px;
             h3{
-                margin-top: 20px;
+                margin-top: 25px;
+                font-size: 25px;
             }
         }
         span{
