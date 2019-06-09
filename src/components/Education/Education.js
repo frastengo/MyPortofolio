@@ -9,9 +9,12 @@ function Education () {
                     <h1>console.log(FRANCISCA.education)</h1>
                 </div> */}
                 <div className='position'>
-                    <h1>DevMountain</h1>
-                    <h2>Coding Bootcamp</h2>
+                    <h1>Web Immersive Course</h1>
+                    <h2>DevMountain</h2>
+                    
                     <p>03/2019 - 05/2019</p>
+                    <button><a target="_blank" href ='https://devmountain.com/web-bootcamp-immersive'>Click here to see program details</a></button>
+                    
                 </div>
                 <div className='position'>
                     <h1>Bachelor of Science, Nutrition</h1>

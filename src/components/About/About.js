@@ -14,7 +14,7 @@ function About () {
                 {/* <h1>{front + " " + "Hello & Welcome! " + back }</h1> */}
                 <div className='p-image'>
                     <img src={imageMe}/>
-                    <p>I’m originally from <span>Chile </span>and have been living in the United States for about 16 years. I am proficient in both English and Spanish. My professional career was focused on the health industry which led me to positions that strongly build up my customer service skills, time management, and proficiency. 
+                    <p>I’m originally from <span>Chile </span>and have been living in the United States for about 16 years. I am proficient in both English and Spanish. My professional career was focused on the health industry which led me to positions that strengthen my customer service skills, time management, and proficiency. 
                     </p>
                 </div>
                 
