@@ -44,8 +44,23 @@ function Projects () {
                             
                             <p>04/2019</p>
                         </div>
-                        <h2>Skills: ['React', 'Redux', 'HTML', 'CSS', 'Node.js', 'JavaScript', 'PostgreSQL', 'Socket.io', 'Cloudinary']</h2>
-                        <h2>Summary: Social application for pet owners.</h2>
+                        <div className='main-skills'>
+                            <h2>REACT</h2>
+                            <h2>JAVASCRIPT</h2>
+                            <h2>NODEJS</h2>
+                            <h2>HTML</h2>
+                            <h2>CSS</h2>
+                        </div>
+                        <div className='extra-skills'>
+                            <h2>GITHUB</h2>
+                            <h2>POSTGRESQL</h2>
+                            <h2>HEROKU</h2>
+                            <h2>SOCKET.IO</h2>
+                            <h2>POSTMAN</h2>
+                        </div>
+                        <div className='summary'>
+                            <h2>Summary: Social application for pet owners.</h2>
+                        </div>
                         
                         
                         <div className='images-container'>
