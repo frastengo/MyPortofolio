@@ -6,6 +6,9 @@ $light-pink: #FCE8E8;
 
 
 .projects{
+    #portofolio {
+        margin-bottom: 50px;
+    }
     
 
     .project-container{
@@ -17,6 +20,25 @@ $light-pink: #FCE8E8;
     }
     
     .project{
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+        span{
+            font-size: 15px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            padding: 10px 300px;
+            // background: linear-gradient(0.25turn, white, lightgrey, white);
+            background: lightgrey;
+            color: black;
+            &:hover{
+                background: darkgrey;
+                color: white;
+            }
+        }
+        margin-bottom: 50px;
+
        
         width: 100%;
        
@@ -242,6 +264,7 @@ $light-pink: #FCE8E8;
                 color: grey;
             }
             span{
+                font-size: 25px;
                 border-top: 2px solid black;
                 border-bottom: 2px solid black;
                 padding: 10px 300px;

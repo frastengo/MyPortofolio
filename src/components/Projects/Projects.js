@@ -224,15 +224,27 @@ function Projects () {
                         <a target='a_blank' href='https://www.mememaster.fun/' ><span>www.mememaster.fun</span></a>
                     </div>
                     <div className='project'>
-                        <h1>Meme Master</h1>
-                        <h2>DevMountain</h2>
-                        <p>Skills: ['React']</p>
+                        <div className='project-title'>
+                            <h1>My Portofolio</h1>
+                            <p>This Project</p>
+                            
+                            <p>05/2019</p>
+                        </div>
+                        <div id ='portofolio' className='main-skills'>
+                            <h2>REACT</h2>
+                            <h2>JAVASCRIPT</h2>
+                            <h2>NODEJS</h2>
+                            <h2>HTML</h2>
+                            <h2>CSS</h2>
+                            <h2>RESPONSIVE</h2>
+                        </div>
+                        
+                        
+                        
+                        
+                        <a target='a_blank' href='https://www.frastengo.com/' ><span>www.frastengo.com</span></a>
                     </div>
-                    <div className='project'>
-                        <h1>Portofolio</h1>
-                        <h2>DevMountain</h2>
-                        <p>Skills: ['React']</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>
