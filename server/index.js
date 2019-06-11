@@ -9,5 +9,5 @@ app.get('*', (req, res)=>{
   res.sendFile(path.join(__dirname, '../build/index.html'));
 })
 
-const PORT = 4001;
+const PORT = process.env;
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
