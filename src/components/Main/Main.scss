@@ -8,6 +8,7 @@ $light-pink: #FCE8E8;
 .main-container{
     // background: #B2B1B1;
     background: lightgrey;
+    
     .name-title-container{
         margin-top: 100px;
         
@@ -27,6 +28,7 @@ $light-pink: #FCE8E8;
         h1 {
             margin-top: 100px;
             font-size: 30px;
+            text-shadow: 1px 1px 1px white;
             // font-weight: bold;
             // background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
             // background: linear-gradient(0.25turn, $dark-gray, white, white, $dark-gray);
@@ -35,27 +37,37 @@ $light-pink: #FCE8E8;
             margin-top: 100px;
             
             
-            margin-bottom: 5px;
-            padding: 5px 10px;
+            margin-bottom: 20px;
+            padding: 15px 20px;
             // color: $grey-title;
-            color: black;
+            color:rgb(63, 63, 63);
 
-            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-name: mobile-hello; /* Safari 4.0 - 8.0 */
             -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-            animation-name: example;
+            animation-name: mobile-hello;
             animation-duration: 3s;
             
             
-            animation: example duration timing-function delay iteration-count direction fill-mode;
-            @keyframes example {
-                0%   {opacity: 0;
-                font-size: 15px;}
-                100% {opacity: 1;}
+            animation: mobile-hello duration timing-function delay iteration-count direction fill-mode;
+            @keyframes mobile-hello {
+                0%   {
+                    // opacity: 0;
+                    font-size: 15px;
+                    
+                }
+                100% {
+                    // opacity: 1;
+                    font-size: 30px;
+                    
+                }
             }
 
 
 
             @media (min-width: 500px){
+                text-shadow: 1px 1px 1px grey;
+                background: linear-gradient(0.25turn, lightgrey, white, white, lightgrey);
+                color: #262626;
                 width: 100%;
                 font-size: 45px;
                 margin-bottom: 25px;
@@ -67,14 +79,14 @@ $light-pink: #FCE8E8;
                     color: black;
                 }
 
-                -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+                -webkit-animation-name: hello; /* Safari 4.0 - 8.0 */
                 -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-                animation-name: example;
+                animation-name: hello;
                 animation-duration: 3s;
                 
                 
-                animation: example duration timing-function delay iteration-count direction fill-mode;
-                @keyframes example {
+                animation: hello duration timing-function delay iteration-count direction fill-mode;
+                @keyframes hello {
                     0%   {opacity: 0;
                     font-size: 15px;}
                     100% {opacity: 1;}
@@ -90,18 +102,37 @@ $light-pink: #FCE8E8;
         h2 {
             font-size: 15px;
             letter-spacing: 2px;
+            color: rgb(82, 81, 81);
+            text-shadow: 1px 1px 1px white;
+            -webkit-animation-name: knowme-mobile; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+                animation-name: knowme-mobile;
+                animation-duration: 5s;
+                
+                
+                @keyframes knowme-mobile {
+                    0%   {opacity: 0;
+                    color: lightgrey;}
+                        // transform: scaleY(4)
+                    
+                    // transform: translate(0%, 50%);}
+                    // 25%  {opacity: 0.3;}
+                    // 50%  {opacity: 0.5;}
+                    100% {opacity: 1;
+                    }
+                }
             @media (min-width: 500px){
                 color: black;
                 font-size: 25px;
                 letter-spacing: 15px;
                 text-shadow: 1px 1px 1px white;
-                -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+                -webkit-animation-name: knowme; /* Safari 4.0 - 8.0 */
                 -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-                animation-name: example2;
+                animation-name: knowme;
                 animation-duration: 5s;
                 
                 animation: example2 duration timing-function delay iteration-count direction fill-mode;
-                @keyframes example2 {
+                @keyframes knowme {
                     0%   {opacity: 0;
                     color: lightgrey;}
                         // transform: scaleY(4)
