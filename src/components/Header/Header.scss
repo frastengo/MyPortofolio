@@ -153,10 +153,11 @@ header {
         }  
         h1 {
             font-size: 20px;
+            
             // background: linear-gradient(0.25turn, $dark-gray,$light-pink,$light-pink, $light-pink, $dark-gray) ;
-            background: linear-gradient(0.25turn, $dark-gray, white, white, white, white, $dark-gray);
+            // background: linear-gradient(0.25turn, white,$dark-gray, white, $dark-gray);
             width: 100%;
-            // background: white;
+            
             // width: 375px;
             // text-align: center;
             
@@ -164,8 +165,11 @@ header {
             margin-bottom: 5px;
             padding: 5px 5px;
             // color: $grey-title;
-            color:black;
+            color:rgb(38, 38, 38);
+            font-weight: medium;
+            // color:white;
             @media (min-width: 500px){
+                background: linear-gradient(0.25turn, lightgrey, white, white, lightgrey);
                 // font-weight: bold;
                 width: 100%;
                 font-size: 45px;

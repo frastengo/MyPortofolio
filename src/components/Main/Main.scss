@@ -39,6 +39,22 @@ $light-pink: #FCE8E8;
             padding: 5px 10px;
             // color: $grey-title;
             color: black;
+
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 3s;
+            
+            
+            animation: example duration timing-function delay iteration-count direction fill-mode;
+            @keyframes example {
+                0%   {opacity: 0;
+                font-size: 15px;}
+                100% {opacity: 1;}
+            }
+
+
+
             @media (min-width: 500px){
                 width: 100%;
                 font-size: 45px;
@@ -55,21 +71,12 @@ $light-pink: #FCE8E8;
                 -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
                 animation-name: example;
                 animation-duration: 3s;
-                // transform: scaleY(5);
                 
-                // -ms-transform: rotate(20deg); /* IE 9 */
-                // -webkit-transform: rotate(20deg); /* Safari 3-8 */
-                // transform: rotate(20deg);
                 
                 animation: example duration timing-function delay iteration-count direction fill-mode;
                 @keyframes example {
                     0%   {opacity: 0;
                     font-size: 15px;}
-                        // transform: scaleY(4)
-                    ;
-                    // transform: translate(0%, 50%);}
-                    // 25%  {opacity: 0.3;}
-                    // 50%  {opacity: 0.5;}
                     100% {opacity: 1;}
                 }
                 
@@ -92,15 +99,6 @@ $light-pink: #FCE8E8;
                 -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
                 animation-name: example2;
                 animation-duration: 5s;
-                // animation-delay: 3s;
-                // opacity: 0;
-                // animation-timing-function-delay: 3s;
-                
-                // transform: scaleY(5);
-                
-                // -ms-transform: rotate(20deg); /* IE 9 */
-                // -webkit-transform: rotate(20deg); /* Safari 3-8 */
-                // transform: rotate(20deg);
                 
                 animation: example2 duration timing-function delay iteration-count direction fill-mode;
                 @keyframes example2 {
