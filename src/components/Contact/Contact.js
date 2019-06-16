@@ -19,7 +19,7 @@ function Contact () {
                     <i class="material-icons">
                    email
                     </i>
-                    <h1>frastengoravilet@gmail.com</h1>
+                    <h1>frastengo@gmail.com</h1>
 
                 </div>
                 <div className='email'>
